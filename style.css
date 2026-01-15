@@ -318,18 +318,46 @@ ul {
     text-align: center;
 }
 
-.footer-content h2 {
-    font-family: var(--font-heading);
+.footer-brand {
     margin-bottom: 2rem;
-    font-size: 2.5rem;
+}
+
+.footer-logo {
+    height: 80px;
+    width: auto;
+    margin-bottom: 1rem;
+}
+
+.footer-brand h2 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-address {
+    margin-bottom: 2.5rem;
+}
+
+.footer-address p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    opacity: 0.9;
+}
+
+.footer-cta h3 {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--accent-color);
 }
 
 .contact-highlight {
     font-size: 2rem;
     font-weight: 800;
-    color: var(--accent-color);
+    color: white;
     margin: 1.5rem 0;
     display: block;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
 
 .footer-links {
